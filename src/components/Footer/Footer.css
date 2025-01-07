@@ -1,0 +1,9 @@
+.footer-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    font-size: 1.1rem; 
+  }

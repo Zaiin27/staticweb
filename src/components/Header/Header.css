@@ -1,0 +1,32 @@
+.hover-underline {
+    text-decoration: none;
+  }
+  
+  .hover-underline:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for the collapsed navbar menu */
+  .navbar-collapse {
+    flex-direction: row; /* Make links horizontal */
+    justify-content: center; /* Align items to the center */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      flex-direction: column; /* Stacking vertically on larger mobile screens */
+      align-items: center; /* Center links in the collapsed view */
+    }
+  
+    .navbar-nav {
+      margin: 0;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem 1rem; /* Add some spacing for nav links */
+    }
+  
+    .navbar-nav span {
+      display: none; /* Hide separators for smaller screens */
+    }
+  }
